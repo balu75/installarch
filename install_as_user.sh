@@ -10,7 +10,8 @@ sudo pacman -S --noconfirm \
 	tmux \
 	keychain \
 	pass \
-	neovim
+	neovim \
+	chromium
 
 # System
 sudo systemctl enable vboxservice
