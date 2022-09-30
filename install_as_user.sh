@@ -8,7 +8,8 @@ sudo pacman -S --noconfirm wget \
 	virtualbox-guest-utils \
 	tmux \
 	keychain \
-	pass
+	pass \
+	neovim
 
 # System
 sudo systemctl enable vboxservice
