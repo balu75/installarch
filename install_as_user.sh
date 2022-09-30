@@ -12,6 +12,7 @@ sudo pacman -S --noconfirm wget \
 
 # System
 sudo systemctl enable vboxservice
+sudo systemctl start vboxservice
 
 [ ! -f "~/.ssh/id_ed25519.pub"] && ssh-keygen -t ed25519 -C "thomas.gies@gmx.de"
 
