@@ -6,10 +6,14 @@ set -e
 sudo pacman -S --noconfirm wget \
 	unzip \
 	virtualbox-guest-utils \
-	tmux
+	tmux \
+	keychain \
+	bash-completion
 
 # System
 sudo systemctl enable vboxservice
+
+[ ! -f "~/.ssh/id_ed25519.pub"] && ssh-keygen -t ed25519 -C "thomas.gies@gmx.de"
 
 # Suckless
 
