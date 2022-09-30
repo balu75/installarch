@@ -5,7 +5,8 @@ set -e
 # Packages
 sudo pacman -S --noconfirm wget \
 	unzip \
-	virtualbox-guest-utils
+	virtualbox-guest-utils \
+	tmux
 
 # System
 sudo systemctl enable vboxservice
