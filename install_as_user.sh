@@ -3,7 +3,8 @@
 set -e
 
 # Packages
-sudo pacman -S --noconfirm wget \
+sudo pacman -S --noconfirm \
+	wget \
 	unzip \
 	virtualbox-guest-utils \
 	tmux \
