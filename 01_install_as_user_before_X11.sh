@@ -29,11 +29,15 @@ cd ~/suckless
 [ ! -d "dwm" ] && git clone git@github.com:balu75/dwm.git
 
 # dot-files
-
 cd ~
 git clone git@github.com:balu75/dot-files.git
 cd ~/dot-files
 ./setup
+
+# nvim Konfiguration
+mkdir -p ~/.config/nvim
+cd ~/.config/nvim
+git clone git@github.com:balu75/nvimconfig.git
 
 # Fonts
 mkdir -pv ~/tmp-inconsolata
