@@ -8,7 +8,7 @@ sudo pacman -S --noconfirm wget \
 	virtualbox-guest-utils \
 	tmux \
 	keychain \
-	bash-completion
+	pass
 
 # System
 sudo systemctl enable vboxservice
