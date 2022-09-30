@@ -47,8 +47,3 @@ mv -v *.ttf ~/.local/share/fonts
 
 cd ~
 rm -rfv ~/tmp-inconsolata
-
-
-
-
-
