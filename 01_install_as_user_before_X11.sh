@@ -2,9 +2,6 @@
 
 set -e
 
-useradd -m thomas
-gpasswd -a thomas wheel
-
 # Packages
 sudo pacman -S --noconfirm \
 	wget \
