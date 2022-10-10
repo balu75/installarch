@@ -4,4 +4,6 @@
 
 openssh git
 
-Clone via https first
+no root user
+clone via https
+
