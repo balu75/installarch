@@ -3,3 +3,5 @@
 ## Notwendig Pakete
 
 openssh git
+
+Clone via https first
