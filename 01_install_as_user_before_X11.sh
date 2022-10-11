@@ -10,7 +10,8 @@ sudo pacman -S --noconfirm \
 	pass \
 	neovim \
 	chromium \
-	openssh
+	openssh \
+	stow
 
 # System
 sudo systemctl enable vboxservice
