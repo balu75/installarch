@@ -12,7 +12,8 @@ sudo pacman -S --noconfirm \
 	chromium \
 	openssh \
 	stow \
-	dmenu
+	dmenu \
+	python3
 
 # System
 sudo systemctl enable vboxservice
