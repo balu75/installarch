@@ -31,6 +31,13 @@ cd dwm
 make
 sudo make install
 
+cd ../bar
+make
+
+cd ../st
+make
+sudo make install
+
 # dot-files
 cd ~
 git clone https://github.com/balu75/dot-files.git
