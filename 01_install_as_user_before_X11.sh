@@ -29,6 +29,10 @@ cd ~/suckless
 [ ! -d "bar" ] && git clone https://github.com/balu75/bar.git
 [ ! -d "dwm" ] && git clone https://github.com/balu75/dwm.git
 
+cd dwm
+make
+sudo make install
+
 # dot-files
 cd ~
 git clone https://github.com/balu75/dot-files.git
