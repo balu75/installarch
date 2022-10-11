@@ -17,11 +17,11 @@ sudo pacman -S --noconfirm \
 sudo systemctl enable vboxservice
 sudo systemctl start vboxservice
 
-[ ! -f "~/.ssh/id_ed25519.pub"] && ssh-keygen -t ed25519 -C "thomas.gies@gmx.de"
+[ ! -f "~/.ssh/id_ed25519.pub" ] && ssh-keygen -t ed25519 -C "thomas.gies@gmx.de"
 
 # Suckless
 
-mkdir -p ~suckless
+mkdir -p ~/suckless
 cd ~/suckless
 
 [ ! -d "st" ] && git clone https://github.com/balu75/st.git
