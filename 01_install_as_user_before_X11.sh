@@ -11,7 +11,8 @@ sudo pacman -S --noconfirm \
 	keychain \
 	pass \
 	neovim \
-	chromium
+	chromium \
+	openssh
 
 # System
 sudo systemctl enable vboxservice
