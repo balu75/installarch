@@ -38,7 +38,7 @@ cd ~/dot-files
 # nvim Konfiguration
 mkdir -p ~/.config/nvim
 cd ~/.config/nvim
-git clone git@github.com:balu75/nvimconfig.git
+git clone https://github.com/balu75/nvimconfig.git
 
 # Fonts
 mkdir -pv ~/tmp-inconsolata
