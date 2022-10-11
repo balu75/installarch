@@ -31,7 +31,7 @@ cd ~/suckless
 
 # dot-files
 cd ~
-git clone git@github.com:balu75/dot-files.git
+git clone https://github.com/balu75/dot-files.git
 cd ~/dot-files
 ./setup
 
