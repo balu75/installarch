@@ -13,7 +13,10 @@ sudo pacman -S --noconfirm \
 	openssh \
 	stow \
 	dmenu \
-	python3
+	python3 \
+	python-pip
+	
+python3 -m pip install --user --upgrade pynvim
 
 # System
 sudo systemctl enable vboxservice
