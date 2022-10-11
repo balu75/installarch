@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 # Packages
 sudo pacman -S --noconfirm \
 	wget \
