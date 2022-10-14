@@ -14,7 +14,8 @@ sudo pacman -S --noconfirm \
 	stow \
 	dmenu \
 	python3 \
-	python-pip
+	python-pip \
+	xclip
 	
 python3 -m pip install --user --upgrade pynvim
 
